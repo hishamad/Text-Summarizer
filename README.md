@@ -1,7 +1,7 @@
 # Text-Summarizer
 
 ## To run the files
-
+We used the Amazon Fine Food Reviews dataset and in order to run any of the notebooks you need to download it and get the "Reviews.csv" file.
 ---
 
 ## RNN part
