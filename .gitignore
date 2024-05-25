@@ -1,1 +1,4 @@
 data/*
+fine-tuning/final-model/*
+fine-tuning/data/*
+google-t5/t5-small_amazon/*
