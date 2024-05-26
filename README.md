@@ -8,6 +8,17 @@ There are two parts of the project:
 
 ## RNN part
 
+### Train
+- Get the preparsed train and test data at: https://drive.google.com/drive/folders/12I1f090x5ylKr70cjKMuEaKtgt_tIW-H?usp=sharing
+- put the datafolder in the `rnn` folder
+- run `python3 train_rnn.py`
+
+### Demo
+- Get the preparsed data at: https://drive.google.com/drive/folders/12I1f090x5ylKr70cjKMuEaKtgt_tIW-H?usp=sharing, will be needed for the w2i and i2w mappings. 
+- run `python3 rnn_demo.py`
+- Enter the review when promted, and the summary will be printed.
+
+
 ## Fine-tuning part
 
 In this part, the notebooks were created and executed on the KTH cluster provided from the course. There are two notebooks, one for the training code _fine-tune-final.ipynb_ and the other for the demo/inference _fine-tune-demo.ipynb_.
