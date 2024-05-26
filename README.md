@@ -37,7 +37,9 @@ Run _fine-tune-demo.ipynb_:
 
 -   To easily run it, upload the file also to the KTH cluser enviroment in the same folder of the previous file.
 
--   Create a folder called 'final-model' and copy the content from the checkpoint folder you are interested in to this folder.
+-   Create a folder called 'final-model'
+
+-   You have two options, either download the folder that contains our trained model https://drive.google.com/file/d/1O13AqXfJ9bGkF02ytlW6K7fY_tXflmrC/ and copy its content to the 'final-model' folder or use a model you trained yourself by copying the content of the last checkpoint into 'final-model' folder.
 
 -   Run the notebook and now you will be able to do inference in the last code cell.
 
