@@ -23,7 +23,7 @@ There are two parts of the project:
 
 In this part, the notebooks were created and executed on the KTH cluster provided from the course. There are two notebooks, one for the training code _fine-tune-final.ipynb_ and the other for the demo/inference _fine-tune-demo.ipynb_.
 
-Run _fine-tune-final.ipynb_:
+### Run _fine-tune-final.ipynb_ (Training):
 
 -   To easily run it, first upload the file to the KTH cluser enviroment.
 
@@ -33,7 +33,7 @@ Run _fine-tune-final.ipynb_:
 
 -   Three versions of the model will be saved as the model is training. The three latest versions of the model represent the model version from the previous 5000 iteration, 10 000 iterations and lastly 15 000 iterations. Once the training is done you find the models in the following path _./google-tf/tf-small_amazon/_. You will find three checkpoint folders.
 
-Run _fine-tune-demo.ipynb_:
+### Run _fine-tune-demo.ipynb_ (Demo):
 
 -   To easily run it, upload the file also to the KTH cluser enviroment in the same folder of the previous file.
 
